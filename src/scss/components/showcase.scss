@@ -1,0 +1,26 @@
+.showcase {
+	&__room {
+		background-image: url(/src/img/light\ room.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		width: 867px;
+		height: 1087px;
+		border-radius: 30px;
+
+		&--dark {
+			background-image: url(/src/img/dark\ room.png);
+		}
+	}
+
+	&__lamp {
+		position: absolute;
+		width: 98px;
+		height: 360px;
+		top: 0px;
+		right: 600px;
+
+		&--hidden {
+			display: none;
+		}
+	}
+}

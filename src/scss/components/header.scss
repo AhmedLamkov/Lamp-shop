@@ -1,0 +1,34 @@
+.header {
+	width: 1600px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 30px;
+	box-sizing: border-box;
+	margin: 30px auto 8px;
+	&__logo {
+		width: 219px;
+		height: 45px;
+		background-image: url(/src/img/logo.svg);
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	&__nav {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__link {
+		font-family: "SF CompactDisplay", sans-serif;
+		font-weight: 400;
+		text-decoration: none;
+		color: #3d9090;
+		font-size: 21px;
+		text-transform: uppercase;
+
+		&:not(:last-child) {
+			margin-right: 64px;
+		}
+	}
+}

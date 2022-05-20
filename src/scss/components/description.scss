@@ -1,0 +1,50 @@
+.description {
+	display: flex;
+	justify-content: space-between;
+	border-top: 1px solid #c4c4c4;
+	margin-bottom: 100px;
+	padding-top: 40px;
+	position: relative;
+	&__characteristics {
+		display: flex;
+		flex-direction: column;
+		height: fit-content;
+		justify-content: space-around;
+		padding-left: 40px;
+		margin-top: 158px;
+		position: relative;
+
+		&::before {
+			content: "";
+			position: absolute;
+			background: #e4d7b9;
+			transform: matrix(1, 0, 0, -1, 0, 0);
+			border-radius: 50%;
+			z-index: -10;
+			width: 462px;
+			height: 462px;
+			left: -25%;
+		}
+	}
+
+	&__characteristic {
+		font-family: "SF CompactDisplay", sans-serif;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 21px;
+		letter-spacing: 0.055em;
+		margin-bottom: 10px;
+		&--name {
+			font-weight: 100;
+			text-transform: capitalize;
+		}
+	}
+
+	&__preview {
+		position: absolute;
+		width: 158px;
+		height: 580px;
+		left: 280px;
+		top: 0;
+	}
+}

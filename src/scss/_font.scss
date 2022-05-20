@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'SF CompactDisplay';
+    src: url('../fonts/SFCompactDisplay-Regular.otf') format('opentype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'SF CompactDisplay';
+    src: url('../fonts/SFCompactDisplay-Thin.otf') format('opentype');
+    font-weight: 100;
+}
+body {
+    font-family: 'SF CompactDisplay', sans-serif;
+    color: #3D9090;
+}
+p {
+    font-weight: 100;
+    color: #000000;
+}

@@ -1,0 +1,21 @@
+.about {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 600px;
+	padding-right: 67px;
+	padding-left: 30px;
+	margin-top: 91px;
+	margin-bottom: 80px;
+
+	&__text {
+		font-family: "SF CompactDisplay", sans-serif;
+		font-weight: 100;
+		font-size: 24px;
+		line-height: 32px;
+		letter-spacing: 0.055em;
+		&:not(:last-child) {
+			margin-bottom: 15px;
+		}
+	}
+}
